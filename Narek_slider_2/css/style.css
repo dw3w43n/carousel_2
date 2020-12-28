@@ -1,0 +1,13 @@
+#carousel { text-align: center; width: 800px; margin: 0 auto; }
+
+#carousel .photos { position: relative; height: 450px; }
+
+#carousel .photos img { display: block; width: 100%; position: absolute; left: 0px; opacity: 0; -webkit-transition: all ease 1s; transition: all ease 1s; }
+
+#carousel .photos img.show { opacity: 1; }
+
+#carousel .bullets { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+#carousel .bullets .bullet { width: 40px; height: 15px; margin: 5px; border-radius: 5px; background-color: #333; }
+
+#carousel .bullets .bullet:hover { background-color: #f00; }
